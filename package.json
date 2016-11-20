@@ -1,0 +1,47 @@
+{
+  "name": "num-format",
+  "version": "1.0.0",
+  "description": "Format numbers to human readable",
+  "main": "index.js",
+  "scripts": {
+    "test": "xo && mocha"
+  },
+  "author": "taoalpha",
+  "license": "ISC",
+  "devDependencies": {
+    "expect.js": "^0.3.1",
+    "mocha": "^3.1.2",
+    "xo": "^0.17.1"
+  },
+  "xo": {
+    "esnext": true,
+    "space": 2,
+    "envs": [
+      "mocha"
+    ],
+    "rules": {
+      "quotes": [
+        "error",
+        "double",
+        {
+          "allowTemplateLiterals": true
+        }
+      ]
+    },
+    "ignores": [
+      "test/**"
+    ]
+  },
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/taoalpha/num-format.git"
+  },
+  "bugs": {
+    "url": "https://github.com/taoalpha/num-format/issues"
+  },
+  "homepage": "https://github.com/taoalpha/num-format#readme"
+}
